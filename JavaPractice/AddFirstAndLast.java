@@ -10,7 +10,7 @@ public class AddFirstAndLast {
             arr[i]= scanner.nextInt();
         }
         System.out.print("Result : ");
-        System.out.print(arr[0]+arr[2]);
+        System.out.println(arr[0]+arr[2]);
         scanner.close();
     }
 }
