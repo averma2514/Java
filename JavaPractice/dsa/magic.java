@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.FileAlreadyExistsException;
 class magic{
     public static void main(String[] args) {
@@ -7,7 +8,8 @@ class magic{
             File file = new File(path+""+i+".text");
             try{
                 file.createNewFile();
-            }catch (FileAlreadyExistsException e){}
+            }catch (IOException e){}
     }
+}
 }
 //C:\Users\amanv\OneDrive\Desktop
