@@ -69,13 +69,15 @@ class Tree{
       }
     }
 
-    void deorder(Node temp){
+    void postorder(Node temp){
        if(temp!=null){
-         deorder(temp.left);
-         deorder(temp.right);
+         postorder(temp.left);
+         postorder(temp.right);
          System.out.print(temp.data + " "); 
       }
     }
+
+
 
     public static void main(String[] args) {
         Tree tree = new Tree();
@@ -97,7 +99,7 @@ class Tree{
         
         //printing element in decrising order.
         System.out.print("Element in tree in decrising order = > ");
-        tree.deorder(tree.root);
+        tree.postorder(tree.root);
         System.out.println();
     }
     
