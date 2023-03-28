@@ -1,4 +1,4 @@
-package dsa.hashtechng;
+package dsa.hashtech;
 import java.util.*;
 
 

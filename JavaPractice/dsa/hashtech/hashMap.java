@@ -1,4 +1,4 @@
-package dsa.hashmap;
+package dsa.hashtech;
 
 class country{
     private String name;
